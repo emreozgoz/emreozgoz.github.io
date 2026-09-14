@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emre Özgöz — Uygulamalar ve Destek</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a2e; --muted: #5b5b73;
+    --accent: #6366F1; --line: #e5e5ef; --card: #f7f7fc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14141f; --fg: #e9e9f2; --muted: #a0a0b8;
+            --accent: #8b8dff; --line: #2a2a3d; --card: #1c1c2b; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 64px 24px 80px; }
+  a { color: var(--accent); }
+  h1 { font-size: 32px; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 { font-size: 19px; margin: 44px 0 12px; letter-spacing: -0.01em; }
+  .lead { color: var(--muted); margin: 0 0 8px; font-size: 17px; }
+  .app { display: flex; gap: 16px; align-items: flex-start;
+         background: var(--card); border: 1px solid var(--line);
+         border-radius: 14px; padding: 18px 20px; margin: 14px 0; }
+  .app h3 { margin: 0 0 4px; font-size: 17px; }
+  .app p { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+  .app .links { font-size: 14px; }
+  .mark { width: 44px; height: 44px; border-radius: 11px; flex: 0 0 auto;
+          background: linear-gradient(135deg, #6366F1, #8b5cf6);
+          display: flex; align-items: center; justify-content: center;
+          color: #fff; font-weight: 700; font-size: 18px; }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Emre Özgöz</h1>
+<p class="lead">Mobil bulmaca oyunları</p>
+
+<h2>Uygulamalar</h2>
+
+<div class="app">
+  <div class="mark">&lt;</div>
+  <div>
+    <h3>Futoshiki — Mantık Bulmacası</h3>
+    <p>Sudokunun eşitsizliklerle buluştuğu mantık bulmacası. 120 bölüm, 4 zorluk seviyesi, internetsiz oynanır.</p>
+    <div class="links">
+      <a href="futoshiki/gizlilik.html">Gizlilik politikası</a> ·
+      <a href="futoshiki/privacy.html">Privacy policy (EN)</a>
+    </div>
+  </div>
+</div>
+
+<h2>Destek</h2>
+<p>
+  Bir sorun mu yaşadınız, öneriniz mi var? Doğrudan yazın —
+  e-postalara genellikle birkaç gün içinde dönüş yapıyorum.
+</p>
+<p>
+  <a href="mailto:emreozgoz@gmail.com">emreozgoz@gmail.com</a>
+</p>
+<p style="color: var(--muted); font-size: 15px;">
+  Bir hata bildiriyorsanız cihaz modelinizi, Android sürümünüzü ve sorunun hangi
+  ekranda olduğunu yazarsanız çok daha hızlı çözebilirim.
+</p>
+
+<footer>
+  © 2026 Emre Özgöz
+</footer>
+
+</div>
+</body>
+</html>
