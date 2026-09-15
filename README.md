@@ -11,19 +11,17 @@ Futoshiki'nin (ve sonraki uygulamaların) destek ve gizlilik politikası sayfala
 Play Console, AdMob ve App Store Connect'e verilecek gizlilik politikası URL'si
 Türkçe olanıdır: `https://emreozgoz.github.io/futoshiki/gizlilik.html`
 
-## app-ads.txt — henüz eklenmedi, bilerek
+## app-ads.txt
 
-AdMob'dan gerçek yayıncı kimliği alınmadan bu dosya **yayınlanmamalı**.
-İçi boş ya da yalnızca yorum satırı içeren bir `app-ads.txt`, tarayıcılara
-"bu uygulama için yetkili satıcı yok" anlamına gelir ve programatik reklam
-gelirini düşürebilir.
-
-Gerçek satır AdMob → Uygulamalar → app-ads.txt bölümünden alınacak ve şu biçimde
-bu deponun köküne `app-ads.txt` olarak eklenecek:
+`app-ads.txt` yayında:
 
 ```
-google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-6228870593431967, DIRECT, f08c47fec0942fa0
 ```
 
-Ayrıca aynı adres Play Console ve App Store Connect'te "geliştirici web sitesi"
-olarak girilmeli, yoksa doğrulama yapılamaz.
+Satır AdMob'un kendi "app-ads.txt dosyası oluşturma" ekranından alındı
+(yayıncı kimliği `pub-6228870593431967`).
+
+**Çalışması için gereken:** Play Console → Mağaza ayarları'nda geliştirici web
+sitesi tam olarak `https://emreozgoz.github.io` girilmeli. AdMob dosyayı
+taradıktan sonra doğrulaması 24 saat kadar sürer.
