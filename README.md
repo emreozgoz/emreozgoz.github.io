@@ -7,9 +7,14 @@ Futoshiki'nin (ve sonraki uygulamaların) destek ve gizlilik politikası sayfala
 | `index.html` | https://emreozgoz.github.io/ |
 | `futoshiki/gizlilik.html` | https://emreozgoz.github.io/futoshiki/gizlilik.html |
 | `futoshiki/privacy.html` | https://emreozgoz.github.io/futoshiki/privacy.html |
+| `one-hue/privacy.html` | https://emreozgoz.github.io/one-hue/privacy.html |
 
 Play Console, AdMob ve App Store Connect'e verilecek gizlilik politikası URL'si
 Türkçe olanıdır: `https://emreozgoz.github.io/futoshiki/gizlilik.html`
+
+One Hue'nun gizlilik sayfası tek dosyada Türkçe ve İngilizce. Kaynağı gizli
+`one-hue` reposundaki `docs/privacy.html`; orada değişirse buraya kopyalanır.
+App Store Connect'teki Support URL: `https://emreozgoz.github.io/`
 
 ## app-ads.txt
 

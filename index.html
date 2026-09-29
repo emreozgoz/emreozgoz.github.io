@@ -33,6 +33,11 @@
           background: linear-gradient(135deg, #6366F1, #8b5cf6);
           display: flex; align-items: center; justify-content: center;
           color: #fff; font-weight: 700; font-size: 18px; }
+  .mark.hue { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px;
+              padding: 5px; background: #0b1410; }
+  .mark.hue span { border-radius: 2px; background: #30a46c; }
+  .mark.hue span:nth-child(6), .mark.hue span:nth-child(8) { background: #f5d90a; }
+  .mark.hue span:nth-child(9) { background: #0091ff; }
   footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line);
            color: var(--muted); font-size: 14px; }
 </style>
@@ -57,6 +62,21 @@
   </div>
 </div>
 
+<div class="app">
+  <div class="mark hue" aria-hidden="true">
+    <span></span><span></span><span></span>
+    <span></span><span></span><span></span>
+    <span></span><span></span><span></span>
+  </div>
+  <div>
+    <h3>One Hue</h3>
+    <p>Tahtayı tek renge boyadığın renk yayma bulmacası. Günlük bulmaca, 50 bölüm, internetsiz oynanır.</p>
+    <div class="links">
+      <a href="one-hue/privacy.html">Gizlilik politikası · Privacy policy</a>
+    </div>
+  </div>
+</div>
+
 <h2>Destek</h2>
 <p>
   Bir sorun mu yaşadınız, öneriniz mi var? Doğrudan yazın —
@@ -66,7 +86,7 @@
   <a href="mailto:emreozgoz@gmail.com">emreozgoz@gmail.com</a>
 </p>
 <p style="color: var(--muted); font-size: 15px;">
-  Bir hata bildiriyorsanız cihaz modelinizi, Android sürümünüzü ve sorunun hangi
+  Bir hata bildiriyorsanız cihaz modelinizi, iOS ya da Android sürümünüzü ve sorunun hangi
   ekranda olduğunu yazarsanız çok daha hızlı çözebilirim.
 </p>
 
