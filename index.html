@@ -38,6 +38,11 @@
   .mark.hue span { border-radius: 2px; background: #30a46c; }
   .mark.hue span:nth-child(6), .mark.hue span:nth-child(8) { background: #f5d90a; }
   .mark.hue span:nth-child(9) { background: #0091ff; }
+  .mark.ocak { position: relative; overflow: hidden;
+               background: radial-gradient(circle at 50% 65%, #7a3a14, #140d09 75%); }
+  .mark.ocak::after { content: ""; position: absolute; left: 10px; right: 10px; bottom: 10px; height: 11px;
+                      background: linear-gradient(#fff0a8, #f5c542 45%, #c7851f);
+                      clip-path: polygon(18% 0, 82% 0, 100% 100%, 0 100%); }
   footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line);
            color: var(--muted); font-size: 14px; }
 </style>
@@ -46,7 +51,7 @@
 <div class="wrap">
 
 <h1>Emre Özgöz</h1>
-<p class="lead">Mobil bulmaca oyunları</p>
+<p class="lead">Mobil oyunlar</p>
 
 <h2>Uygulamalar</h2>
 
@@ -73,6 +78,17 @@
     <p>Tahtayı tek renge boyadığın renk yayma bulmacası. Günlük bulmaca, 50 bölüm, internetsiz oynanır.</p>
     <div class="links">
       <a href="one-hue/privacy.html">Gizlilik politikası · Privacy policy</a>
+    </div>
+  </div>
+</div>
+
+<div class="app">
+  <div class="mark ocak" aria-hidden="true"></div>
+  <div>
+    <h3>Ocak</h3>
+    <p>Kayayı kır, taşları fırında erit, külçeleri sat, yükselt. Bitmeyen bir maden oyunu.</p>
+    <div class="links">
+      <a href="ocak/privacy.html">Gizlilik politikası · Privacy policy</a>
     </div>
   </div>
 </div>
